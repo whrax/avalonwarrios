@@ -1,0 +1,27 @@
+
+# HTID:7178660: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7178660:
+
+#redirecciona de avalonwarriors.com a http://www.avalonwarriors.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^avalonwarriors\.com$ [NC]
+RewriteRule ^(.*)$ http://www.avalonwarriors.com/$1 [L,R=301]
+
+#redirecciona de quelthalas-guild.000webhostapp.com a http://www.avalonwarriors.com
+RewriteCond %{HTTP_HOST} ^quelthalas-guild.000webhostapp.com$ [NC]
+RewriteRule ^(.*)$ http://www.avalonwarriors.com/$1 [L,R=301]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

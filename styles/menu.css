@@ -1,0 +1,37 @@
+
+nav {
+  width: 100%;
+  background-image: url(../imagenes/resources/navbar-back.png);
+  position: fixed !important;
+  z-index: 3;
+  background-repeat: no-repeat;
+}
+
+nav ul li {
+  display:inline-block;
+  width: 130px;  
+}
+
+nav a {
+  text-align: center;
+  color:#F8ECC2;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+  height: 50px;
+ }
+
+ nav ul{
+    margin-top: 0px;
+ }
+
+nav a:hover {
+  background-image: url(../imagenes/resources/HorizontalNav-ocho-arrow.png);
+  background-size: 100% 65%;
+  background-repeat: no-repeat;
+}
+
+.menu-trigger {
+  display:none;
+  color:#F8ECC2;
+}
